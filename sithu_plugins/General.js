@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                              //                                                                 //                                         𝚅.𝟷.𝟸.𝟽                                                   // 
                          //
-//                                   CREATE BY SITHUM-KALHARA                                              //
+//                                   CREATE BY ABRO TECH                                              //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -57,7 +57,7 @@ Module_Exports({
 	shortcut : ['dall','dall-e'],
         infocmd: "chat with an AI",
         kingclass: "AI",
-        use: '<Hii, Suhail Tech Info>',
+        use: '<Hii, Abro Tech>',
         kingpath: __filename,
     },
     async(Void, citel,text) => 
@@ -101,15 +101,15 @@ Module_Exports({
 },
 async(Void, citel) => {
     await Void.sendPresenceUpdate('recording', citel.chat);
-        await Void.sendMessage(citel.chat, { audio: {url : 'https://github.com/Sithuwa/Voice/raw/main/Audio/Repo.mp3',}, mimetype: 'audio/mpeg', ptt: true }, { quoted: citel, });
-        let { data } = await axios.get('https://api.github.com/repos/Sithuwa/SITHU-MD')
+        await Void.sendMessage(citel.chat, { audio: {url : '',}, mimetype: 'audio/mpeg', ptt: true }, { quoted: citel, });
+        let { data } = await axios.get('https://api.github.com/repos/Temitopeareo/ABROMD1')
         let cap = `👋Hey ${citel.pushName}\n
 *☀️ 𝐓𝐨𝐭𝐚𝐥 𝐒𝐭𝐚𝐫𝐬:* ${data.stargazers_count} stars
 *🎯 𝐅𝐨𝐫𝐤𝐬:* ${data.forks_count} forks
-*🤍 𝐑𝐞𝐩𝐨:* https://github.com/Sithuwa/SITHU-MD
-*🪀 Support Grp:* https://chat.whatsapp.com/H0FUK41cUp8D2Up9BGI8Ji
-*🪀 Public grp:* https://chat.whatsapp.com/IZpUGOxDi9vEogXXyY9Mpi
-*📌 Youtube tt:* https://www.youtube.com/channel/UCVwddJDhIDa4FaWM717xaAQ`
+*🤍 𝐑𝐞𝐩𝐨:* https://github.com/Temitopeareo/ABROMD1
+*🪀 Support Grp:* SOON...
+*🪀 Public grp:* SOON...
+*📌 Youtube tt:* COMING SOON...`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -117,7 +117,7 @@ async(Void, citel) => {
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Sithu-Repo",
+                    title: "Abro-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -151,7 +151,7 @@ async(sithu, person) => {
 ┃⛦ *_•ᴜᴘ-ᴛɪᴍᴇ•_* ${runtime(process.uptime())}
 ┃⛦ *_•sᴘᴇᴇᴅ•_* ${latensie.toFixed(4)} ᴍs 
 ┃⛦ *_•ᴠᴇʀsɪᴏɴ•_* ${name.VERSION} 
-┃⛦ *_•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•_* *_sɪᴛʜᴜ-ᴍᴅ_*
+┃⛦ *_•ᴘᴏᴡᴇʀᴇᴅ ʙʏ•_* *_ABROMD1_*
 ┗━━━━━━━━━━⦿
 `;
   let buttonMessaged = {
@@ -245,10 +245,10 @@ Module_Exports({
   kingclass: "tools",
   use: "",
 },
-async(sithu, person) => {
-const sithu_male_zubair = require('performance-now')
-   timestampe = sithu_male_zubair();
-       latensie = sithu_male_zubair() - timestampe;
+async(abro, person) => {
+const abro_male_zubair = require('performance-now')
+   timestampe = abro_male_zubair();
+       latensie = abro_male_zubair() - timestampe;
    let Zubair = `_ʀᴇsᴘᴏɴᴅ ʀᴀᴛᴇ ᴏꜰ_ _${name.botname}_ ɪs:\n ${latensie.toFixed(4)} ᴍs`
        return person.reply(Zubair)
 })

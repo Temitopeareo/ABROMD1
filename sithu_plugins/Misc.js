@@ -9,7 +9,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
 
 
 Module_Exports({
-             kingcmd: "sithubot",
+             kingcmd: "abrobot",
              shortcut : ["chatbot","sbot","sithuchatbot"],
              infocmd: "activates and deactivates chatbot.\nuse buttons to toggle.",
              kingclass: "misc",
@@ -23,22 +23,22 @@ Module_Exports({
              {
                  case "on":
                      {
-                         if (chatbott.worktype == "true") return citel.reply("*_SITHU Chatbot is Already Enabled_*")
+                         if (chatbott.worktype == "true") return citel.reply("*_ABRO Chatbot is Already Enabled_*")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "true" })
-                         return await citel.reply('*_SITHU Chatbot Activated successfully._*')   
+                         return await citel.reply('*_ABRO Chatbot Activated successfully._*')   
                      }
                      break
                  case "off":
                      {
-                                if (chatbott.worktype == "false") return citel.reply("*_SITHU ChatBot is Already Disabled._*")
+                                if (chatbott.worktype == "false") return citel.reply("*_ABRO ChatBot is Already Disabled._*")
                                 await chatbot.updateOne({ id: 'chatbot' }, { worktype: "false" })
-                                return await citel.reply('*_SITHU Chatbot Deactivated Successfully._*')
+                                return await citel.reply('*_ABRO Chatbot Deactivated Successfully._*')
                      }
                      break
                  default:
                      {
-                        if (chatbott.worktype == "false") return await citel.reply(`*_SITHU Chatbot Status: Disabled_* \n*_To Enable Type: ${prefix}sbot on_*`)
-                        else return await citel.reply(`*SITHU Chatbot Status: Enabled* \n*_To Disable Type : ${prefix}sbot off_*`)
+                        if (chatbott.worktype == "false") return await citel.reply(`*_ABRO Chatbot Status: Disabled_* \n*_To Enable Type: ${prefix}sbot on_*`)
+                        else return await citel.reply(`*ABRO Chatbot Status: Enabled* \n*_To Disable Type : ${prefix}sbot off_*`)
                         
                      }
              }

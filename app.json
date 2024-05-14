@@ -1,8 +1,8 @@
 {
-  "name": "SITHU-MD WHATSAPP BOT",
-  "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium. For Any Help See My YT:https://www.youtube.com/@SITHUWA-MD",
-  "logo": "https://telegra.ph/file/4ba85b752de56b77264c5.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "SITHU_MD", "SITHU_BOT", "SITHU","SITHUWA_MD","Multi-Device-Bot","multi device"],
+  "name": "ABRO-MD WHATSAPP BOT",
+  "description": "A Whatsapp Bot With Most Premium Features Makes Your Whatsapp Premium",
+  "logo": "https://imgur.com/7doiWDc.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "ABRO_MD", "ABRO_BOT", "ABRO","ABRO_MD","Multi-Device-Bot","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
@@ -12,7 +12,7 @@
   },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL Image for bot.",
-     "value": "https://telegra.ph/file/32210876ea64c8ec80bd4.jpg"
+     "value": "https://imgur.com/7doiWDc.jpg"
     },
  "HEROKU_API_KEY": {
     "description": "Put Your Heroku Api Key Here",
@@ -59,7 +59,7 @@
      "required" :false
     },
 "AUTO_VOICE": {
-    "description": "Auto Voice reply යන්න ඕන නම් true දෙන්න ඕනෙ නැත්තම් false දෙන්න",
+    "description": "Auto Voice reply",
      "value": "false"
     },
       "PREFIX": {
@@ -68,7 +68,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94761516805"
+       "value": "2348100151048"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here"
@@ -80,12 +80,12 @@
   },
   "WELCOME_MESSAGE": {
     "description": "Enter the message here which you want to see when a new user joins a Group.",
-       "value": " @pp *_HI Dear @user_*\n*_Welcome In 💛 @gname_*\n*_Read The Description CareFully_*\n\n\n*_Create By_*\n*_Sithum Kalhara_*",
+       "value": " @pp *_HI Dear @user_*\n*_Welcome In 💛 @gname_*\n*_Read The Description CareFully_*\n\n\n*_Create By_*\n*_Abro Tech_*",
        "required" :false
   },
   "MONGODB_URI": {
     "description": "Add Your Own, If you have key. Its a secret String for Mongodb Connection",
-     "value": "mongodb+srv://SithumKalhara:97531@cluster0.wclgxxb.mongodb.net/?retryWrites=true&w=majority"
+     "value": "mongodb+srv://Abraham:Abraham@cluster0.jg7exji.mongodb.net/?retryWrites=true&w=majority"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -98,37 +98,37 @@
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-     "value": "sɪᴛʜᴜ_ᴍᴅ",
+     "value": "ABRO_MD",
      "required": false 
   },
 "PACK_AUTHER": {
     "description": "Put Sticker Author_Name.",
-     "value": "𝚜𝚒𝚝𝚑𝚞𝚖 𝚔𝚊𝚕𝚑𝚊𝚛𝚊",
+     "value": "Abro Tech",
      "required": false 
   },
 "TIME_ZONE": {
   "description": "Add Your TimeZone. make sure the timzone is correct/Otherwise you will have errors",
-   "value": "Asia/Colombo"
+   "value": "Africa,Lagos"
     
 },
 "SKTIT": {
   "description": "Add Your Title",
-   "value": "💛SITHUWA💛"
+   "value": "💛ABRO💛"
     
 },
 "GNAME": {
   "description": "Add Your Group Name Here.You Can See in Most Commands",
-   "value": "sɪᴛʜᴜ-ᴍᴅ-sᴜᴘᴘᴏʀᴛ",
+   "value": "ABRO-MD",
     "required": false
 },
 "WAURL": {
   "description": "Add Your Group Link.You Can See IT IN Most Commands",
-   "value": "https://chat.whatsapp.com/GU73HsSG2kXCd8EN9xQtiF",
+   "value": "",
     "required": false
 },
 "BOT_NAME": {
   "description": "Add Your Own Bot Name",
-   "value": "sɪᴛʜᴜ_ᴍᴅ"
+   "value": "ABRO-MD"
     
 },
 "REMOVE_BG_KEY": {

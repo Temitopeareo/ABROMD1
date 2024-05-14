@@ -2,7 +2,7 @@
 //                                                                                                      //
 //                                   MULTI-DEVICE WHATSAPP BOT                                              //                                                                 //                                         𝚅.𝟷.𝟸.𝟽                                                   // 
                          //
-//                                   CREATE BY SITHUM-KALHARA                                              //
+//                                   CREATE BY ABRO-TECH                                              //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
@@ -1403,9 +1403,8 @@ Module_Exports({
 ┃❀ *•ʟᴇᴠᴇʟ•* ${sck1.level}🍭
 ┃❀ *•ᴇxᴘ•* ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ┃❀ *•ʀᴏʟᴇ•* *${role}*
-┗━━━━━━━━━━⦿\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱɪᴛʜᴜ-ᴍᴅ`   }, { quoted: citel });
+┗━━━━━━━━━━⦿\n ᴘᴏᴡᴇʀᴇᴅ ʙʏ ABROMD1`   }, { quoted: citel });
 		    }
 	    }
 	})
 	
-

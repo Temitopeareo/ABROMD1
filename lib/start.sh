@@ -1,5 +1,5 @@
 while true 
 do
-echo "Starting SITHU-MD..."
+echo "Starting ABRO-MD..."
 node lib/client.js
 done

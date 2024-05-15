@@ -1,15 +1,15 @@
 {
-          "name": "ABRO-MD",
+          "name": "SITHU-MD",
           "version": "1.2.7",
-          "description": "ABRO-MD A Whatsapp Bot By Abro Tech",
+          "description": "SITHU-MD A Whatsapp Bot By Sithum Kalhara",
           "main": "lib/client.js",
           "type": "commonjs",
           "license": "GPL-3.0",
           "scripts": { 
-                    "start": "pm2 start lib/client.js --deep-monitoring --attach --name Abro-MD",
-                    "stop": "pm2 stop ABRO-MD"
+                    "start": "pm2 start lib/client.js --deep-monitoring --attach --name SITHU-MD",
+                    "stop": "pm2 stop SITHU-MD"
           },
-          "author": "Abro Tech",
+          "author": "Sithum Kalhara",
           "dependencies": {
                     "@adiwajshing/keyed-db": "^0.2.4",
                     "@bochilteam/scraper": "latest",
@@ -82,10 +82,10 @@
           },
           "repository": {
                     "type": "git",
-                    "url": "git+https://github.com/Temitopeareo/ABROMD1.git"
+                    "url": "git+https://github.com/Sithuwa/SITHU-MD.git"
           },
           "bugs": {
-                    "url": "https://github.com/Temitopeareo/ABROMD1/issues"
+                    "url": "https://github.com/Sithuwa/SITHU-MD/issues"
           },
-          "homepage": "https://github.com/Temitopeareo/ABROMD1#readme"
+          "homepage": "https://github.com/Sithuwa/SITHU-MD#readme"
 }

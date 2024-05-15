@@ -52,7 +52,7 @@
 
 <p align="center">
   
-  •••••••••••••••••••••••••••••••••••••••••••••••••••••[`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Temitopeareo/ABROMD)
+  ••••••••••••••••••••••••••••••••••••••••••••••••••••• ***[`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Temitopeareo/ABROMD1)***
 </p>
 <p align="center">Need help? please create an <a href="https://github.com/Temitopeareo/ABROMD1/issues">issue</a></p>
 
@@ -89,7 +89,7 @@
 ---
 ***Deploy tutorial [`Youtube Video`](https://youtu.be/6rnftFl0fAI).***
 ---
-***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Temitopeareo/ABROMD)***
+***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Temitopeareo/ABROMD1)***
 ---
 <a href="https://app.koyeb.com/apps/deploy?type=git&repository=github.com/Temitopeareo/ABROMD1&branch=main&env[SESSION_ID]&env[OWNER_NUMBER]=2348100151048&env[MONGODB_URI]&&env[OWNER_NAME]=ABRO&env[KOYEB_API]&env[PREFIX]=.&env[ALIVE_IMG]=https://imgur.com/7doiWDc.jpg&env[global_url]=instagram.com&env[FAKE_COUNTRY_CODE]=92&env[READ_MESSAGE]=false&env[DISABLE_PM]=false&env[WORKTYPE]=public&env[THEME]=ABRO-MD&env[PACK_INFO]=ABRO-MD;BY-ABRO-TECH&name=ABRO-MD&env[KOYEB_NAME]=ABRO-MD&env[ANTILINK_VALUES]=chat.whatsapp.com&env[PORT]=8000)">
     <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy on Koyeb" width="155px">
